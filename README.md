@@ -21,4 +21,8 @@ this is my own repositoy.I'd like to share my solutions with other
 | ------- |
 | [0125-valid-palindrome](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/0125-valid-palindrome) |
 | [0541-reverse-string-ii](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/0541-reverse-string-ii) |
+## Database
+|  |
+| ------- |
+| [3767-find-students-who-improved](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3767-find-students-who-improved) |
 <!---LeetCode Topics End-->
