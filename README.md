@@ -24,5 +24,6 @@ this is my own repositoy.I'd like to share my solutions with other
 ## Database
 |  |
 | ------- |
+| [2024-calculate-special-bonus](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/2024-calculate-special-bonus) |
 | [3767-find-students-who-improved](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3767-find-students-who-improved) |
 <!---LeetCode Topics End-->
