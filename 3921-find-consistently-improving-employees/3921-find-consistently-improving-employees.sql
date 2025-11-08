@@ -1,5 +1,4 @@
 
-
 WITH LatestReview AS (
     SELECT
         employee_id,
@@ -10,15 +9,18 @@ WITH LatestReview AS (
 )
 
 select  L1.employee_id   , e.name ,
-L1.rating -(select max(l2.rating) from LatestReview l2 where L2.rn  =3  and  L1.employee_id = l2.employee_id   )as improvement_score
+L1.rating - L3.rating  as improvement_score
  
 from  LatestReview  L1
    join employees e 
 on e.employee_id = L1.employee_id 
+   join LatestReview L2
+on L2.employee_id = L1.employee_id  and L2.rn  =2 
+join LatestReview L3
+on L3.employee_id = L1.employee_id  and L3.rn  =3 
+
 WHERE
-    rn =1 and 
-	rating >(select max(l2.rating) from LatestReview l2 where L2.rn  =2  and  L1.employee_id = l2.employee_id   )and
-	(select max(l2.rating) from LatestReview l2 where L2.rn  =2  and  L1.employee_id = l2.employee_id   ) >
-	(select max(l2.rating) from LatestReview l2 where L2.rn  =3  and  L1.employee_id = l2.employee_id   )
+    L1.rn =1  
+	 and L1.rating > L2.rating and L2.rating > L3.rating
 order by  improvement_score desc,  name asc
 
