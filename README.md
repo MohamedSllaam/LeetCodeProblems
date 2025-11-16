@@ -32,4 +32,5 @@ this is my own repositoy.I'd like to share my solutions with other
 | [3910-find-books-with-no-available-copies](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3910-find-books-with-no-available-copies) |
 | [3921-find-consistently-improving-employees](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3921-find-consistently-improving-employees) |
 | [3932-find-covid-recovery-patients](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3932-find-covid-recovery-patients) |
+| [3942-find-drivers-with-improved-fuel-efficiency](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3942-find-drivers-with-improved-fuel-efficiency) |
 <!---LeetCode Topics End-->
