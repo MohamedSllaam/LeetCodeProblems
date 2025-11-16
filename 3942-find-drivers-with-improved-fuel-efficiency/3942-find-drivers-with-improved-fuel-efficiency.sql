@@ -12,6 +12,6 @@ with Avg_fuel_consumed as
 	)
 	select  a.driver_id, d.driver_name, CAST((avg_First_half ) AS DECIMAL(10,2)) first_half_avg ,CAST(( avg_second_half ) AS DECIMAL(10,2)) second_half_avg ,  CAST((avg_second_half - avg_First_half) AS DECIMAL(10,2)) efficiency_improvement  from Avg_fuel_consumed a
 	join drivers d on  a.driver_id = d.driver_id
-	where  CAST((avg_second_half - avg_First_half) AS DECIMAL(10,2))>0
+	where  avg_second_half - avg_First_half>0
 	order by  efficiency_improvement desc , d.driver_name
 	 
