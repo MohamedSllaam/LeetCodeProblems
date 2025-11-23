@@ -26,6 +26,7 @@ this is my own repositoy.I'd like to share my solutions with other
 | ------- |
 | [1301-reformat-department-table](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/1301-reformat-department-table) |
 | [2024-calculate-special-bonus](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/2024-calculate-special-bonus) |
+| [3554-find-category-recommendation-pairs](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3554-find-category-recommendation-pairs) |
 | [3767-find-students-who-improved](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3767-find-students-who-improved) |
 | [3782-find-valid-emails](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3782-find-valid-emails) |
 | [3816-dna-pattern-recognition](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3816-dna-pattern-recognition) |
