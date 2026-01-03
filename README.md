@@ -27,6 +27,7 @@ this is my own repositoy.I'd like to share my solutions with other
 | [1301-reformat-department-table](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/1301-reformat-department-table) |
 | [2024-calculate-special-bonus](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/2024-calculate-special-bonus) |
 | [3465-find-products-with-valid-serial-numbers](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3465-find-products-with-valid-serial-numbers) |
+| [3482-analyze-organization-hierarchy](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3482-analyze-organization-hierarchy) |
 | [3554-find-category-recommendation-pairs](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3554-find-category-recommendation-pairs) |
 | [3767-find-students-who-improved](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3767-find-students-who-improved) |
 | [3782-find-valid-emails](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3782-find-valid-emails) |
