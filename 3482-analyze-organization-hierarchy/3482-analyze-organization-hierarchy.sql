@@ -21,7 +21,7 @@ EmployeeTeamSize AS (
     -- Anchor
     SELECT
         e.employee_id,
-        e.manager_id,
+         
         m.employee_id AS manager_employee_id
     FROM Employees e
     JOIN Employees m
@@ -32,7 +32,7 @@ EmployeeTeamSize AS (
     -- Recursive
     SELECT
         e.employee_id,
-        e.manager_id,
+        
         h.manager_employee_id
     FROM Employees e
     JOIN EmployeeTeamSize h
@@ -48,19 +48,16 @@ EmployeeTeamSizeAgg AS (
 EmployeeBudget AS (
     -- Anchor
     SELECT
-        e.employee_id,
-        e.manager_id,
+        e.employee_id, 
         e.salary,
         e.employee_id AS manager_employee_id
     FROM Employees e
-    
     
     UNION ALL
 
     -- Recursive
     SELECT
-        e.employee_id,
-        e.manager_id,
+        e.employee_id, 
         e.salary,
         h.manager_employee_id
     FROM Employees e
@@ -85,5 +82,7 @@ LEFT JOIN EmployeeTeamSizeAgg t
     ON l.employee_id = t.manager_employee_id
 LEFT JOIN EmployeeBudgetAgg b
     ON l.employee_id = b.manager_employee_id
+ 
+
 ORDER BY l.Level, budget desc , l.employee_name;
 
