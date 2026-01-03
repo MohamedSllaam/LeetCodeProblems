@@ -51,11 +51,10 @@ EmployeeBudget AS (
         e.employee_id,
         e.manager_id,
         e.salary,
-        m.employee_id AS manager_employee_id
+        e.employee_id AS manager_employee_id
     FROM Employees e
-    JOIN Employees m
-        ON m.employee_id = e.employee_id
-
+    
+    
     UNION ALL
 
     -- Recursive
@@ -87,3 +86,4 @@ LEFT JOIN EmployeeTeamSizeAgg t
 LEFT JOIN EmployeeBudgetAgg b
     ON l.employee_id = b.manager_employee_id
 ORDER BY l.Level, budget desc , l.employee_name;
+
