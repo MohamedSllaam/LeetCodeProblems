@@ -29,6 +29,7 @@ this is my own repositoy.I'd like to share my solutions with other
 | [3451-find-invalid-ip-addresses](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3451-find-invalid-ip-addresses) |
 | [3465-find-products-with-valid-serial-numbers](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3465-find-products-with-valid-serial-numbers) |
 | [3482-analyze-organization-hierarchy](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3482-analyze-organization-hierarchy) |
+| [3521-find-product-recommendation-pairs](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3521-find-product-recommendation-pairs) |
 | [3554-find-category-recommendation-pairs](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3554-find-category-recommendation-pairs) |
 | [3767-find-students-who-improved](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3767-find-students-who-improved) |
 | [3782-find-valid-emails](https://github.com/MohamedAhmedAbdAlaziz/LeetCodeProblems/tree/master/3782-find-valid-emails) |
